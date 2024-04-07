@@ -1,0 +1,18 @@
+{
+  "expo": {
+    "icon": "./assets/todologo.png",
+    "splash": {
+      "image": "./assets/todologo.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "infoPlist": {
+        "NSCameraUsageDescription": "This app uses the camera to take photos."
+      }
+    },
+    "android": {
+      "permissions": ["CAMERA"]
+    }
+  }
+}
