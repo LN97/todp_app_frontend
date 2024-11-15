@@ -22,7 +22,7 @@
     "expo-modules-autolinking": "^1.10.3",
     "expo-status-bar": "~1.11.1",
     "react": "18.2.0",
-    "react-native": "0.73.6",
+    "react-native": "^0.76.2",
     "react-native-paper": "4.9.2",
     "react-native-vector-icons": "10.0.3",
     "uuid": "^9.0.1"
