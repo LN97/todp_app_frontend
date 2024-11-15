@@ -9,7 +9,7 @@ const App = () => {
       {/* Header */}
       <View style={styles.header}>
         <View>
-        <Image source={require('./assets/todologo.png')} style={{ width: 50, height: 50 }} />
+        <Image source={require('./assets/to-do-icon.png')} style={{ width: 50, height: 50 }} />
       </View>
         <Text style={styles.headerText}>
             Todo App

@@ -1,18 +1,29 @@
 {
   "expo": {
-    "icon": "./assets/todologo.png",
+    "icon": "./assets/to-do-icon.png",
     "splash": {
-      "image": "./assets/todologo.png",
+      "image": "./assets/to-do-icon.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
     "ios": {
       "infoPlist": {
         "NSCameraUsageDescription": "This app uses the camera to take photos."
-      }
+      },
+      "bundleIdentifier": "com.testIn.todoapp"
     },
     "android": {
-      "permissions": ["CAMERA"]
+      "permissions": [
+        "CAMERA"
+      ],
+      "package": "com.testIn.todoapp"
+    },
+    "owner": "test_ln_todo",
+    "slug": "todoapp",
+    "extra": {
+      "eas": {
+        "projectId": "93e242b3-71eb-4791-b38b-ecf6cdf79081"
+      }
     }
   }
 }

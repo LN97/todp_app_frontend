@@ -1,0 +1,27 @@
+{
+  "cli": {
+    "version": ">= 7.8.1"
+  },
+  "build": {
+    "development": {
+      "developmentClient": true,
+      "distribution": "internal"
+    },
+    "preview": {
+      "distribution": "internal"
+    },
+    "production": {
+      "android": {
+        "buildType": "apk"
+      }, "env": {
+        "MONGOURL": "mongodb+srv://ln97:uJw2Ds98qAddkSMG@test.1sxfvwd.mongodb.net/todoapp?retryWrites=true&w=majority",
+        "CLOUDINARY_CLOUDNAME": "dzohwt52i",
+        "CLOUDINARY_APIKEY": "712533848755682",
+        "CLOUDINARY_APISECRET": "BQDQVSf3kUIqBuLuyLk_7fX54tg"
+      }
+    }
+  },
+  "submit": {
+    "production": {}
+  }
+}
